@@ -115,8 +115,7 @@ define(["dojo/has"], function (has) {
         }
         return location;
     });
-
-
+   
     has.add("measure", function (g) {
         var measure = getTool("measure", g.config);
         //overwrite the default with app settings

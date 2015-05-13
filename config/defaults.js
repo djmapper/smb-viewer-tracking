@@ -61,7 +61,7 @@ define({
     ],
     
     //Locate button properties
-    "tracking": true,
+    "tracking": false,
     "useTracking": true,
     //Set the active tool on the toolbar. Note home and locate can't be the active tool.
     //Set to "" to display no tools at startup

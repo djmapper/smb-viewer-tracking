@@ -136,6 +136,16 @@
             },
             {  
                "type":"boolean",
+               "fieldName":"useTracking",
+               "label":"Stream Location"
+            },
+            {  
+               "type":"boolean",
+               "fieldName":"tracking",
+               "label":"Show Tacking Status"
+            },
+            {  
+               "type":"boolean",
                "fieldName":"tool_home",
                "label":"Home Extent Button"
             },
@@ -295,6 +305,8 @@
       "tool_layers":true,
       "tool_home":true,
       "tool_locate":true,
+      "useTracking":true,
+      "tracking":true,
       "tool_edit":true,
       "tool_edit_toolbar":false,
       "tool_bookmarks":true,
